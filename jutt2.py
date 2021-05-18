@@ -1173,6 +1173,7 @@ def n_s():
     print 47 * '-'
     raw_input(' \x1b[1;93mPress enter to back')
     auto_crack()
+
 if __name__ == '__main__':
     reg() 
 
