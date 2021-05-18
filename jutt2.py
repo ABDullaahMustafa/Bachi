@@ -69,7 +69,6 @@ def reg():
         os.system('xdg-open https://wa.me/+923007574310')
         reg()
 
-
 def reg2():
     os.system('clear')
     print logo
@@ -85,7 +84,6 @@ def reg2():
     sav.close()
     raw_input('\x1b[1;92m Press enter to check Approval ')
     reg()
-
 
 def ip():
     os.system('clear')
@@ -113,7 +111,6 @@ def ip():
     time.sleep(1)
     log_menu()
 
-
 def log_menu():
     try:
         t_check = open('access_token.txt', 'r')
@@ -129,7 +126,6 @@ def log_menu():
         print ''
         log_menu_s()
 
-
 def log_menu_s():
     s = raw_input(' \x1b[1;97m\xe2\x95\xb0\xe2\x94\x80Jutt\xe2\x9e\xa4 ')
     if s == '1':
@@ -143,7 +139,6 @@ def log_menu_s():
         print '\\ Select valid option '
         print ''
         log_menu_s()
-
 
 def log_fb():
     os.system('clear')
